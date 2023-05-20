@@ -1,0 +1,1482 @@
+----------------------------------------------------------------------
+State after executing cycle: 0
+
+IF.nop: 0
+IF.PC: 4
+
+ID.nop: 0
+ID.Instr: 00000000010000000000000100000011
+
+EX.nop: 1
+EX.Read_data1: 0
+EX.Read_data2: 0
+EX.Imm: 0
+EX.Rs: 0
+EX.Rt: 0
+EX.Wrt_reg_addr: 0
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 0
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 0
+MEM.Store_data: 0
+MEM.Rs: 0
+MEM.Rt: 0
+MEM.Wrt_reg_addr: 0
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 0
+
+WB.nop: 1
+WB.Wrt_data: 0
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 1
+
+IF.nop: 0
+IF.PC: 8
+
+ID.nop: 0
+ID.Instr: 00000000100000000000000110000011
+
+EX.nop: 0
+EX.Read_data1: 0
+EX.Read_data2: 0
+EX.Imm: 4
+EX.Rs: 0
+EX.Rt: 4
+EX.Wrt_reg_addr: 2
+EX.is_I_type: 1
+EX.rd_mem: 1
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 1
+MEM.ALUresult: 0
+MEM.Store_data: 0
+MEM.Rs: 0
+MEM.Rt: 0
+MEM.Wrt_reg_addr: 0
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 0
+
+WB.nop: 1
+WB.Wrt_data: 0
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 2
+
+IF.nop: 0
+IF.PC: 12
+
+ID.nop: 0
+ID.Instr: 00000000000100100000001000010011
+
+EX.nop: 0
+EX.Read_data1: 0
+EX.Read_data2: 0
+EX.Imm: 8
+EX.Rs: 0
+EX.Rt: 8
+EX.Wrt_reg_addr: 3
+EX.is_I_type: 1
+EX.rd_mem: 1
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 0
+MEM.ALUresult: 4
+MEM.Store_data: 0
+MEM.Rs: 0
+MEM.Rt: 4
+MEM.Wrt_reg_addr: 2
+MEM.rd_mem: 1
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 0
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 3
+
+IF.nop: 0
+IF.PC: 16
+
+ID.nop: 0
+ID.Instr: 00000000010100100000001010110011
+
+EX.nop: 0
+EX.Read_data1: 0
+EX.Read_data2: 0
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 1
+EX.Wrt_reg_addr: 4
+EX.is_I_type: 1
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 0
+MEM.ALUresult: 8
+MEM.Store_data: 0
+MEM.Rs: 0
+MEM.Rt: 8
+MEM.Wrt_reg_addr: 3
+MEM.rd_mem: 1
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 5
+WB.Rs: 0
+WB.Rt: 4
+WB.Wrt_reg_addr: 2
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 4
+
+IF.nop: 0
+IF.PC: 20
+
+ID.nop: 0
+ID.Instr: 00000000010100011001010001100011
+
+EX.nop: 0
+EX.Read_data1: 0
+EX.Read_data2: 0
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 5
+EX.Wrt_reg_addr: 5
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 0
+MEM.ALUresult: 1
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 1
+MEM.Wrt_reg_addr: 4
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 10
+WB.Rs: 0
+WB.Rt: 8
+WB.Wrt_reg_addr: 3
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 5
+
+IF.nop: 0
+IF.PC: 24
+
+ID.nop: 1
+ID.Instr: 00000000110000000000010101101111
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 1
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 0
+MEM.ALUresult: 1
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 1
+WB.Rs: 4
+WB.Rt: 1
+WB.Wrt_reg_addr: 4
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 6
+
+IF.nop: 0
+IF.PC: 28
+
+ID.nop: 0
+ID.Instr: 11111110010000010001100011100011
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 1
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 1
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 1
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 7
+
+IF.nop: 0
+IF.PC: 8
+
+ID.nop: 1
+ID.Instr: 11111111111111111111111111111111
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 1
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 1
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 1
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 8
+
+IF.nop: 0
+IF.PC: 12
+
+ID.nop: 0
+ID.Instr: 00000000000100100000001000010011
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 1
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 1
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 1
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 9
+
+IF.nop: 0
+IF.PC: 16
+
+ID.nop: 0
+ID.Instr: 00000000010100100000001010110011
+
+EX.nop: 0
+EX.Read_data1: 1
+EX.Read_data2: 0
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 1
+EX.Wrt_reg_addr: 4
+EX.is_I_type: 1
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 1
+MEM.ALUresult: 1
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 1
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 10
+
+IF.nop: 0
+IF.PC: 20
+
+ID.nop: 0
+ID.Instr: 00000000010100011001010001100011
+
+EX.nop: 0
+EX.Read_data1: 1
+EX.Read_data2: 1
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 5
+EX.Wrt_reg_addr: 5
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 0
+MEM.ALUresult: 2
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 1
+MEM.Wrt_reg_addr: 4
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 1
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 11
+
+IF.nop: 0
+IF.PC: 24
+
+ID.nop: 1
+ID.Instr: 00000000110000000000010101101111
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 3
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 0
+MEM.ALUresult: 3
+MEM.Store_data: 1
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 2
+WB.Rs: 4
+WB.Rt: 1
+WB.Wrt_reg_addr: 4
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 12
+
+IF.nop: 0
+IF.PC: 28
+
+ID.nop: 0
+ID.Instr: 11111110010000010001100011100011
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 3
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 3
+MEM.Store_data: 1
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 3
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 13
+
+IF.nop: 0
+IF.PC: 8
+
+ID.nop: 1
+ID.Instr: 11111111111111111111111111111111
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 2
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 3
+MEM.Store_data: 1
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 3
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 14
+
+IF.nop: 0
+IF.PC: 12
+
+ID.nop: 0
+ID.Instr: 00000000000100100000001000010011
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 2
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 3
+MEM.Store_data: 1
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 3
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 15
+
+IF.nop: 0
+IF.PC: 16
+
+ID.nop: 0
+ID.Instr: 00000000010100100000001010110011
+
+EX.nop: 0
+EX.Read_data1: 2
+EX.Read_data2: 0
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 1
+EX.Wrt_reg_addr: 4
+EX.is_I_type: 1
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 1
+MEM.ALUresult: 3
+MEM.Store_data: 1
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 3
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 16
+
+IF.nop: 0
+IF.PC: 20
+
+ID.nop: 0
+ID.Instr: 00000000010100011001010001100011
+
+EX.nop: 0
+EX.Read_data1: 2
+EX.Read_data2: 3
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 5
+EX.Wrt_reg_addr: 5
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 0
+MEM.ALUresult: 3
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 1
+MEM.Wrt_reg_addr: 4
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 3
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 17
+
+IF.nop: 0
+IF.PC: 24
+
+ID.nop: 1
+ID.Instr: 00000000110000000000010101101111
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 6
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 0
+MEM.ALUresult: 6
+MEM.Store_data: 3
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 3
+WB.Rs: 4
+WB.Rt: 1
+WB.Wrt_reg_addr: 4
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 18
+
+IF.nop: 0
+IF.PC: 28
+
+ID.nop: 0
+ID.Instr: 11111110010000010001100011100011
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 6
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 6
+MEM.Store_data: 3
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 6
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 19
+
+IF.nop: 0
+IF.PC: 8
+
+ID.nop: 1
+ID.Instr: 11111111111111111111111111111111
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 3
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 6
+MEM.Store_data: 3
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 6
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 20
+
+IF.nop: 0
+IF.PC: 12
+
+ID.nop: 0
+ID.Instr: 00000000000100100000001000010011
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 3
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 6
+MEM.Store_data: 3
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 6
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 21
+
+IF.nop: 0
+IF.PC: 16
+
+ID.nop: 0
+ID.Instr: 00000000010100100000001010110011
+
+EX.nop: 0
+EX.Read_data1: 3
+EX.Read_data2: 0
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 1
+EX.Wrt_reg_addr: 4
+EX.is_I_type: 1
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 1
+MEM.ALUresult: 6
+MEM.Store_data: 3
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 6
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 22
+
+IF.nop: 0
+IF.PC: 20
+
+ID.nop: 0
+ID.Instr: 00000000010100011001010001100011
+
+EX.nop: 0
+EX.Read_data1: 3
+EX.Read_data2: 6
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 5
+EX.Wrt_reg_addr: 5
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 0
+MEM.ALUresult: 4
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 1
+MEM.Wrt_reg_addr: 4
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 6
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 23
+
+IF.nop: 0
+IF.PC: 24
+
+ID.nop: 0
+ID.Instr: 00000000110000000000010101101111
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 10
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 0
+MEM.ALUresult: 10
+MEM.Store_data: 6
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 4
+WB.Rs: 4
+WB.Rt: 1
+WB.Wrt_reg_addr: 4
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 24
+
+IF.nop: 0
+IF.PC: 32
+
+ID.nop: 1
+ID.Instr: 11111110010000010001100011100011
+
+EX.nop: 0
+EX.Read_data1: 0
+EX.Read_data2: 24
+EX.Imm: 12
+EX.Rs: 0
+EX.Rt: 12
+EX.Wrt_reg_addr: 10
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 1
+MEM.ALUresult: 10
+MEM.Store_data: 6
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 10
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 25
+
+IF.nop: 0
+IF.PC: 36
+
+ID.nop: 0
+ID.Instr: 00000000010000000010100000100011
+
+EX.nop: 1
+EX.Read_data1: 0
+EX.Read_data2: 24
+EX.Imm: 12
+EX.Rs: 0
+EX.Rt: 12
+EX.Wrt_reg_addr: 10
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 0
+MEM.ALUresult: 24
+MEM.Store_data: 24
+MEM.Rs: 0
+MEM.Rt: 12
+MEM.Wrt_reg_addr: 10
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 10
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 26
+
+IF.nop: 0
+IF.PC: 40
+
+ID.nop: 0
+ID.Instr: 00000000101000000010101000100011
+
+EX.nop: 0
+EX.Read_data1: 0
+EX.Read_data2: 4
+EX.Imm: 16
+EX.Rs: 0
+EX.Rt: 4
+EX.Wrt_reg_addr: 16
+EX.is_I_type: 1
+EX.rd_mem: 0
+EX.wrt_mem: 1
+EX.alu_op: 00
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 24
+MEM.Store_data: 24
+MEM.Rs: 0
+MEM.Rt: 12
+MEM.Wrt_reg_addr: 10
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 24
+WB.Rs: 0
+WB.Rt: 12
+WB.Wrt_reg_addr: 10
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 27
+
+IF.nop: 0
+IF.PC: 44
+
+ID.nop: 0
+ID.Instr: 11111110000000000000100011100011
+
+EX.nop: 0
+EX.Read_data1: 0
+EX.Read_data2: 24
+EX.Imm: 20
+EX.Rs: 0
+EX.Rt: 10
+EX.Wrt_reg_addr: 20
+EX.is_I_type: 1
+EX.rd_mem: 0
+EX.wrt_mem: 1
+EX.alu_op: 00
+EX.wrt_enable: 0
+
+MEM.nop: 0
+MEM.ALUresult: 16
+MEM.Store_data: 4
+MEM.Rs: 0
+MEM.Rt: 4
+MEM.Wrt_reg_addr: 16
+MEM.rd_mem: 0
+MEM.wrt_mem: 1
+MEM.wrt_enable: 0
+
+WB.nop: 1
+WB.Wrt_data: 24
+WB.Rs: 0
+WB.Rt: 12
+WB.Wrt_reg_addr: 10
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 28
+
+IF.nop: 0
+IF.PC: 24
+
+ID.nop: 1
+ID.Instr: 00000000000000000000000000000000
+
+EX.nop: 1
+EX.Read_data1: 0
+EX.Read_data2: 0
+EX.Imm: -16
+EX.Rs: 0
+EX.Rt: 0
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: beq
+EX.wrt_enable: 0
+
+MEM.nop: 0
+MEM.ALUresult: 20
+MEM.Store_data: 24
+MEM.Rs: 0
+MEM.Rt: 10
+MEM.Wrt_reg_addr: 20
+MEM.rd_mem: 0
+MEM.wrt_mem: 1
+MEM.wrt_enable: 0
+
+WB.nop: 0
+WB.Wrt_data: 16
+WB.Rs: 0
+WB.Rt: 4
+WB.Wrt_reg_addr: 16
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 29
+
+IF.nop: 0
+IF.PC: 28
+
+ID.nop: 0
+ID.Instr: 11111110010000010001100011100011
+
+EX.nop: 1
+EX.Read_data1: 0
+EX.Read_data2: 0
+EX.Imm: -16
+EX.Rs: 0
+EX.Rt: 0
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: beq
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 20
+MEM.Store_data: 24
+MEM.Rs: 0
+MEM.Rt: 10
+MEM.Wrt_reg_addr: 20
+MEM.rd_mem: 0
+MEM.wrt_mem: 1
+MEM.wrt_enable: 0
+
+WB.nop: 0
+WB.Wrt_data: 20
+WB.Rs: 0
+WB.Rt: 10
+WB.Wrt_reg_addr: 20
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 30
+
+IF.nop: 0
+IF.PC: 8
+
+ID.nop: 1
+ID.Instr: 11111111111111111111111111111111
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 4
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 20
+MEM.Store_data: 24
+MEM.Rs: 0
+MEM.Rt: 10
+MEM.Wrt_reg_addr: 20
+MEM.rd_mem: 0
+MEM.wrt_mem: 1
+MEM.wrt_enable: 0
+
+WB.nop: 1
+WB.Wrt_data: 20
+WB.Rs: 0
+WB.Rt: 10
+WB.Wrt_reg_addr: 20
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 31
+
+IF.nop: 0
+IF.PC: 12
+
+ID.nop: 0
+ID.Instr: 00000000000100100000001000010011
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 4
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 20
+MEM.Store_data: 24
+MEM.Rs: 0
+MEM.Rt: 10
+MEM.Wrt_reg_addr: 20
+MEM.rd_mem: 0
+MEM.wrt_mem: 1
+MEM.wrt_enable: 0
+
+WB.nop: 1
+WB.Wrt_data: 20
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 32
+
+IF.nop: 0
+IF.PC: 16
+
+ID.nop: 0
+ID.Instr: 00000000010100100000001010110011
+
+EX.nop: 0
+EX.Read_data1: 4
+EX.Read_data2: 0
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 1
+EX.Wrt_reg_addr: 4
+EX.is_I_type: 1
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 1
+MEM.ALUresult: 20
+MEM.Store_data: 24
+MEM.Rs: 0
+MEM.Rt: 10
+MEM.Wrt_reg_addr: 20
+MEM.rd_mem: 0
+MEM.wrt_mem: 1
+MEM.wrt_enable: 0
+
+WB.nop: 1
+WB.Wrt_data: 20
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 33
+
+IF.nop: 0
+IF.PC: 20
+
+ID.nop: 0
+ID.Instr: 00000000010100011001010001100011
+
+EX.nop: 0
+EX.Read_data1: 4
+EX.Read_data2: 10
+EX.Imm: 1
+EX.Rs: 4
+EX.Rt: 5
+EX.Wrt_reg_addr: 5
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: 00
+EX.wrt_enable: 1
+
+MEM.nop: 0
+MEM.ALUresult: 5
+MEM.Store_data: 0
+MEM.Rs: 4
+MEM.Rt: 1
+MEM.Wrt_reg_addr: 4
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 20
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
+----------------------------------------------------------------------
+State after executing cycle: 34
+
+IF.nop: 0
+IF.PC: 24
+
+ID.nop: 1
+ID.Instr: 00000000110000000000010101101111
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 15
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 0
+MEM.ALUresult: 15
+MEM.Store_data: 10
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 5
+WB.Rs: 4
+WB.Rt: 1
+WB.Wrt_reg_addr: 4
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 35
+
+IF.nop: 0
+IF.PC: 28
+
+ID.nop: 0
+ID.Instr: 11111110010000010001100011100011
+
+EX.nop: 1
+EX.Read_data1: 10
+EX.Read_data2: 15
+EX.Imm: 8
+EX.Rs: 3
+EX.Rt: 5
+EX.Wrt_reg_addr: 8
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 15
+MEM.Store_data: 10
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 0
+WB.Wrt_data: 15
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 36
+
+IF.nop: 1
+IF.PC: 28
+
+ID.nop: 1
+ID.Instr: 11111111111111111111111111111111
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 5
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 15
+MEM.Store_data: 10
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 15
+WB.Rs: 4
+WB.Rt: 5
+WB.Wrt_reg_addr: 5
+WB.wrt_enable: 1
+
+----------------------------------------------------------------------
+State after executing cycle: 37
+
+IF.nop: 1
+IF.PC: 28
+
+ID.nop: 1
+ID.Instr: 11111111111111111111111111111111
+
+EX.nop: 1
+EX.Read_data1: 5
+EX.Read_data2: 5
+EX.Imm: -16
+EX.Rs: 2
+EX.Rt: 4
+EX.Wrt_reg_addr: 17
+EX.is_I_type: 0
+EX.rd_mem: 0
+EX.wrt_mem: 0
+EX.alu_op: bne
+EX.wrt_enable: 0
+
+MEM.nop: 1
+MEM.ALUresult: 15
+MEM.Store_data: 10
+MEM.Rs: 4
+MEM.Rt: 5
+MEM.Wrt_reg_addr: 5
+MEM.rd_mem: 0
+MEM.wrt_mem: 0
+MEM.wrt_enable: 1
+
+WB.nop: 1
+WB.Wrt_data: 15
+WB.Rs: 0
+WB.Rt: 0
+WB.Wrt_reg_addr: 0
+WB.wrt_enable: 0
+
