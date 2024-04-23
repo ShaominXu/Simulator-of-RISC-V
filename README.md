@@ -1,6 +1,9 @@
 # Simulator-of-RISC-V
 cycle-accurate simulators of a 32-bit RISC-V processor
 
-Code files are in `pythonProjA` directory.
+## Run
 
-Test files are in `ProjA-TC` directory.
+```
+cd pythonProjA
+python main.py --iodir <test-dir>
+```
